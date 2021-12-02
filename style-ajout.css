@@ -14,14 +14,14 @@ form {
 	padding:15px 10px;
 }
 select, input {
-	margin: 15px;
+	margin: 12px;
 }
 
 
 
 #ajout{
+	display: none;
 	border: solid;
-	
 	height: 480px;
 	width: 300px;
 	margin: auto;
@@ -40,4 +40,12 @@ select, input {
 	background-color: silver;
 
 
+}
+#fermer {
+	position: relative;
+	text-align: end;
+	color: red;
+}
+#croix{
+	height: 5px;
 }
