@@ -10,3 +10,23 @@ function fermer(){
 	fermer.style.display="none";
 
 }
+
+function ajoutImg(){
+	let lienImg= document.getElementById("ajout-img");
+	lienImg
+
+}
+
+function woah () {
+  const [file] = fileImg.files
+  if (file) {
+    beuteu.src = URL.createObjectURL(file)
+  }
+  document.getElementById("boiteImg").style.zIndex="1";
+}
+
+fileImg.onchange = woah;
+
+function dessus(){
+
+}
