@@ -9,12 +9,18 @@
 <body>
 	<button onclick=""> AJOUT</button>
 	<div id="ajout">
-		<div id="ajout-img"></div>
+		<div id="ajout-img">
+			Uploader le concerné
+			<input type="file" accept="image/png,image/jpeg name="image" >
+		</div>
 		<form>
 			Ajout d'un sauveteur, une personne sauvée ou d'un bateau? <select>
 				<option>sauveteur</option>
 				<option>personne sauvée</option>
 				<option>bateau</option> </select>
+			Nom (+Prénom) <input type="text" name="nom" placeholder="Nom Prénom">
+			Si n'êtes pas en possession de ces informations, cochez la case suivante : <input type="checkbox" name="inconnu">
+			<input type="submit" name="envoie">
 
 		</form>
 

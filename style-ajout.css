@@ -11,6 +11,10 @@ form {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	padding:15px 10px;
+}
+select, input {
+	margin: 15px;
 }
 
 
@@ -24,7 +28,7 @@ form {
 
 }
 #ajout-img {
-	height: 200px;
+	height: 160px;
 	width: 260px;
 	border: solid;
 	border-color: red;
@@ -32,6 +36,8 @@ form {
 	justify-content: center;
 	margin-left: 6%;
 	margin-top: 4%;
+	text-align: center;
+	background-color: silver;
 
 
 }
