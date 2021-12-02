@@ -1,0 +1,7 @@
+#ajout{
+	border: solid;
+	display: flex;
+	flex-direction: row;
+	height: 40%;
+	width: 35%;
+}
