@@ -12,10 +12,13 @@ form {
 	flex-direction: column;
 	text-align: center;
 	padding:15px 10px;
+	margin-top: 13px;
 }
 select, input {
 	margin: 12px;
+	margin-left: 10px;
 }
+
 
 
 
@@ -31,13 +34,12 @@ select, input {
 }
 #ajout-img {
 	height: 160px;
-	width: 260px;
+	width: 200px;
 	border: solid;
-	border-color: red;
+	border-color: powderblue;
 	position: relative;
 	justify-content: center;
-	margin-left: 6%;
-	margin-top: 4%;
+	margin-left: 17%;
 	text-align: center;
 	
 
@@ -63,11 +65,13 @@ select, input {
 	margin: 2px;
 }
 .espace{
-	margin-top: 30px;
+	margin-top: 12px;
+
 }
 
 #beuteu{
 	height: 160px;
+	max-width: 200px;
 	width: auto;
 }
 #boiteImg{
@@ -80,4 +84,8 @@ select, input {
 	justify-content: center;
 	align-content: center;
 	z-index: -1;
+}
+#fileImg {
+	margin-top: 145px;
+
 }
